@@ -7,14 +7,14 @@
 
 
     <body>
-
-      <div id="app"></div>
+      <div id="app">
+      </div>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
      <% if (!htmlWebpackPlugin.options.isLocalBuild) { %>
       <!-- These are vendors in production app that are on CDN. You can remove it if not needed -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script> -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.4.0/vue-resource.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.1/vue-router.min.js"></script>
      <% }  %>
